@@ -3,3 +3,7 @@
 * [Introduction](README.md)
 * [About us](about-us.md)
 * [Authorization](authorization.md)
+
+## 📬 Endpoints
+
+* [JSON](endpoints/json.md)

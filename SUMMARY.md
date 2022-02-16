@@ -8,3 +8,8 @@
 
 * [JSON](endpoints/json.md)
 * [Anime](endpoints/anime.md)
+
+## 🧸 Extra
+
+* [Package](extra/package.md)
+* [Imgur](extra/imgur.md)

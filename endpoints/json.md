@@ -5,7 +5,7 @@ description: Full JSON endpoints list
 # JSON
 
 {% hint style="warning" %}
-These endpoints needs the \*\*\`Authorization\`\*\* header.
+These endpoints needs the **`Authorization`** header.
 {% endhint %}
 
 {% swagger method="get" path="/owoify" baseUrl="https://api.willz.repl.co/json" summary="Owoify youw text" %}
@@ -251,7 +251,7 @@ success: true
 
 {% swagger method="get" path="/weather" baseUrl="https://api.willz.repl.co/json" summary="Get the weather from a city" %}
 {% swagger-description %}
-
+quo
 {% endswagger-description %}
 
 {% swagger-parameter in="query" type="String" name="query" required="true" %}
@@ -260,6 +260,28 @@ City to find
 
 {% swagger-parameter in="query" name="degree" type="String" %}
 Degree type: C or F defults C
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
+```json
+{
+status: 200,
+data: {
+Object
+},
+success: true
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="get" path="/quotes" baseUrl="https://api.willz.repl.co/json" summary="Get quotes from anime or reality" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="query" type="String" name="type" required="true" %}
+Quote type: anime | normal
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="" %}

@@ -7,3 +7,4 @@
 ## 📬 Endpoints
 
 * [JSON](endpoints/json.md)
+* [Anime](endpoints/anime.md)

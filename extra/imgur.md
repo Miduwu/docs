@@ -34,6 +34,7 @@ To use the image endpoints you need to use a second endpoint:\
 $nomention
 $c[Our API key, not IMGUR related]
 $httpAddHeader[Authorization;YOUR_API_KEY]
-$httpGet[https://api.willz.repl.co/json/resolvebuffer?client=MYIMGURID&body=https://api.willz.rep].co/image/tweet?username=$usernameAANDtext=$messageAANDDimage=$authorAvatar
+$httpGet[https://api.willz.repl.co/json/resolvebuffer?client=MYIMGURID&body=https://api.willz.rep].co/image/tweet?username=$usernameAANDtext=$messageAANDDimage=$authorAvatar]
+$image[$httpResult[data;link]]
 ```
 

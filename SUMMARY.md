@@ -8,6 +8,7 @@
 
 * [JSON](endpoints/json.md)
 * [Anime](endpoints/anime.md)
+* [Image](endpoints/image.md)
 
 ## 📚 Libraries
 

@@ -1,3 +1,7 @@
+---
+description: Full Anime endpoints list.
+---
+
 # Anime
 
 {% hint style="warning" %}

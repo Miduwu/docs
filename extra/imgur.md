@@ -14,7 +14,7 @@ Due to the high demand for these endpoints in this ~~trash~~ application, we hav
 
 First, you need to create a **IMGUR API ACCOUNT**, go to [https://api.imgur.com/oauth2/addclient](https://api.imgur.com/oauth2/addclient)\
 Now you need to write that data and make sure you select the **OAuth 2 authorization without a callback URL**.\
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 Now click on <mark style="color:green;">**SUBMIT**</mark> and... **COPY YOUR CLIENT ID** (You must keep this ID in a safe place)
 
@@ -37,4 +37,3 @@ $httpAddHeader[Authorization;YOUR_API_KEY]
 $httpGet[https://api.willz.repl.co/json/resolvebuffer?client=MYIMGURID&body=https://api.willz.repl.co/image/tweet?username=$usernameAANDtext=$messageAANDDimage=$authorAvatar]
 $image[$httpResult[data;link]]
 ```
-

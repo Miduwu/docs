@@ -296,3 +296,23 @@ success: true
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+{% swagger method="get" path="/ascii" baseUrl="https://api.willz.repl.co/json" summary="Ascii art of your text" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="query" type="String" name="text" required="true" %}
+Text to asciify
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
+```json
+{
+status: 200,
+data: String,
+success: true
+}
+```
+{% endswagger-response %}
+{% endswagger %}

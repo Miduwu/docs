@@ -64,6 +64,9 @@ module.exports = {
 **`Anime`** This class only has the Anime endpoints.\
 <mark style="color:red;">**USAGE:**</mark> `<Class Attribute>.endpoint()`
 
+**`Util`** This class has util methods, check [aoi.js guide](../libraries/aoi.js.md).\
+<mark style="color:red;">**USAGE:**</mark> `<Class Attribute>.method()`
+
 ### Available endpoints
 
 [Check all endpoints clicking here!](https://github.com/Miduwu/T-API.js/blob/main/auxiliar/endpoints.json)

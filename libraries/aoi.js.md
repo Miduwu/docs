@@ -24,7 +24,8 @@ const api = new TAPI.All('T-API TOKEN')
 const ApiUtil = new TAPI.Util(api)
 ApiUtil.connect_aoi(bot, {
     embeds: '$imageAPI', // You can change the function name
-    attachments: '$attachmentAPI' // You can change the function name
+    attachments: '$attachmentAPI', // You can change the function name
+    objects: '$requestAPI' // You can change the function name
 })
 ```
 
@@ -37,3 +38,7 @@ ApiUtil.connect_aoi(bot, {
 **ATTACHMENTS:**\
 <mark style="color:orange;">Usage:</mark> `$attachmentAPI[endpoint;JSON Params]`\
 <mark style="color:purple;">Example:</mark> `$attachmentAPI[supreme;{"text": "$message"}]`
+
+**OBJECTS (JSON):**\
+<mark style="color:orange;">Usage:</mark> `$requestAPI[group(anime/json);endpoint;JSON Params;property;error]`\
+<mark style="color:purple;">Example:</mark> `$requestAPI[json;quotes;{"type": "anime"};data.quote;Something went wrong]`

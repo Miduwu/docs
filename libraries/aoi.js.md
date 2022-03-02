@@ -2,15 +2,20 @@
 
 ### JSON
 
-Actually you can use pre-coded functions in aoi.js like `$jsonRequest` or `$httpRequest`
+Actually you can use pre-coded functions in aoi.js like `$jsonRequest` or `$httpRequest` or the package extension (You need to install our [package](https://npmjs.com/@midowo/t-api.js) and add a code to your index.js)
 
+**Using `$jsonRequest` from aoi.js**
 ```
 $jsonRequest[https://api.willz.repl.co/json/translate?text=Hi&source=auto&target=fr;data.translated;Error message;Authorization:YOUR_KEY]
+```
+**Using `$requestAPI` from our package**
+```
+$requestAPI[json;translate;{"text": Hi", "source": "auto", "target": "fr"};data.translated;Something went wrong]
 ```
 
 ### Image Manipulation
 
-You need to install our [package](https://npmjs.com/@midowo/t-api.js) and add a ncode to your index.js
+You need to install our [package](https://npmjs.com/@midowo/t-api.js) and add a code to your index.js
 
 ```javascript
 // Setup the aoi.js bot
@@ -32,7 +37,7 @@ ApiUtil.connect_aoi(bot, {
 #### Functions Usage:
 
 **EMBEDS:**\
-****<mark style="color:orange;">Usage:</mark> `$imageAPI[index;endpoint;JSON Params;name.ext]`\
+<mark style="color:orange;">Usage:</mark> `$imageAPI[index;endpoint;JSON Params;name.ext]`\
 <mark style="color:purple;">Example:</mark> `$imageAPI[1;supreme;{"text": "$message"};canvas.png]`
 
 **ATTACHMENTS:**\

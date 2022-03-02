@@ -32,12 +32,12 @@ ApiUtil.connect_aoi(bot, {
 #### Functions Usage:
 
 **EMBEDS:**\
-****<mark style="color:orange;">Usage:</mark> `$imageAPI[index;endpoint;JSON Params]`\
-<mark style="color:purple;">Example:</mark> `$imageAPI[1;supreme;{"text": "$message"}]`
+****<mark style="color:orange;">Usage:</mark> `$imageAPI[index;endpoint;JSON Params;name.ext]`\
+<mark style="color:purple;">Example:</mark> `$imageAPI[1;supreme;{"text": "$message"};canvas.png]`
 
 **ATTACHMENTS:**\
-<mark style="color:orange;">Usage:</mark> `$attachmentAPI[endpoint;JSON Params]`\
-<mark style="color:purple;">Example:</mark> `$attachmentAPI[supreme;{"text": "$message"}]`
+<mark style="color:orange;">Usage:</mark> `$attachmentAPI[endpoint;JSON Params;name.ext]`\
+<mark style="color:purple;">Example:</mark> `$attachmentAPI[supreme;{"text": "$message"};canvas.png]`
 
 **OBJECTS (JSON):**\
 <mark style="color:orange;">Usage:</mark> `$requestAPI[group(anime/json);endpoint;JSON Params;property;error]`\

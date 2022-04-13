@@ -15,6 +15,8 @@ We have more projects:
 
 * _****_[_**Tokyo | トキョ**_](https://dsc.gg/tokyo.uwu) **** (Discord Bot)
 * _****_[_**T-API.js**_](https://npmjs.com/package/@midowo/t-api.js) (Node Package Wrapper)
+* [**timeouts.ts-dev**](http://npmjs.com/package/timeouts.ts-dev) (Persistent Timeouts Package)
+* ****[**anime.js**](https://npmjs.com/package/@midowo/anime.js) (SFW & NSFW Anime gifs)
 
 {% hint style="info" %}
 **Join our** [**Support server**](https://discord.com/invite/3pT2WHG9EG) **to get your T-API token**.

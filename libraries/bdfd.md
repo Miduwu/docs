@@ -29,3 +29,9 @@ Agh... check this:
 {% hint style="info" %}
 Consider learning Aoi.js instead.
 {% endhint %}
+
+You also can use the link from public group directly.
+
+Ex: [https://api.miduwu.ga/public/discordjs?text=T-API](https://api.miduwu.ga/public/discordjs?text=T-API)
+
+![](https://api.miduwu.ga/public/discordjs?text=T-API)

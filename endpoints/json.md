@@ -316,3 +316,23 @@ success: true
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+{% swagger method="get" path="/calendar" baseUrl="https://api.willz.repl.co/json" summary="Get a calendar" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="query" type="String" name="date" required="false" %}
+Text to asciify
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
+```json
+{
+status: 200,
+data: Object,
+success: true
+}
+```
+{% endswagger-response %}
+{% endswagger %}

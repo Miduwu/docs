@@ -336,3 +336,23 @@ success: true
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+{% swagger method="get" path="/chatbot" baseUrl="https://api.willz.repl.co/json" summary="Chatbot with A.I." %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="query" type="String" name="text" required="true" %}
+The message
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
+```json
+{
+status: 200,
+data: String,
+success: true
+}
+```
+{% endswagger-response %}
+{% endswagger %}
